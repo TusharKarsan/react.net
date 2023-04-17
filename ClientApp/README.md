@@ -11,7 +11,7 @@ move clientapp ClientApp
 
 Then
 ```
-npm install --save bootstrap reactstrap`
+npm install --save bootstrap reactstrap
 ```
 Careful with version support between these two packages.
 
