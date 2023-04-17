@@ -1,3 +1,32 @@
+# Created 2023-04-17 by Tushar Karsan
+
+`dotnet new react -o react.net`
+
+and then
+```
+rmdir -r ClientApp  
+npx create-react-app clientapp --template typescript  
+move clientapp ClientApp  
+```
+
+Then
+```
+npm install --save bootstrap reactstrap`
+```
+Careful with version support between these two packages.
+
+Then in `index.tsx`
+```
+import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/js/bootstrap.bundle.min";
+```
+
+Time to add bootstrap layout.
+
+Compare with
+[react.old](https://github.com/TusharKarsan/react.old).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
