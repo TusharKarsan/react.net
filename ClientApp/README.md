@@ -23,6 +23,12 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 Time to add bootstrap layout.
 
+Then
+```
+npm install react-router-dom
+```
+This needs work also.
+
 Compare with
 [react.old](https://github.com/TusharKarsan/react.old).
 
